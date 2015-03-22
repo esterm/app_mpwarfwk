@@ -1,0 +1,36 @@
+{
+
+    "request": {
+        "class": "Mpwarfwk\\Component\\Request\\Request",
+        "arguments": ["Mpwarfwk\\Component\\Session\\Session"]
+      
+    },
+
+    "session": {
+        "class": "Mpwarfwk\\Component\\Session\\Session",
+        "arguments": []
+      
+    },
+
+     "bootstrap": {
+        "class": "Mpwarfwk\\Component\\Bootstrap",
+        "arguments": [true]
+      
+    },
+
+
+    "twigtemplate": {
+        "class": "Mpwarfwk\\Component\\Templating\\TwigTemplate",
+        "arguments":  [""]
+      
+    },
+
+    "smartytemplate": {
+        "class": "Mpwarfwk\\Component\\Templating\\SmartyTemplate",
+        "arguments":  [""]
+      
+    }
+
+}
+
+

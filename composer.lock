@@ -1,0 +1,162 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "83d56b11a98762ce4c7bcd9d647f13f9",
+    "packages": [
+        {
+            "name": "esterm/mpwarfwk",
+            "version": "dev-devel",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/esterm/mpwarfwk.git",
+                "reference": "ed628768f5cfb956eae9dc4cd9ba576072d58757"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/esterm/mpwarfwk/zipball/ed628768f5cfb956eae9dc4cd9ba576072d58757",
+                "reference": "ed628768f5cfb956eae9dc4cd9ba576072d58757",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "smarty/smarty": "3.1.*",
+                "twig/twig": "1.8.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-0": {
+                    "Mpwarfwk\\": "src/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "description": "MPWAR Framework",
+            "homepage": "https://github.com/pablor/mpwarfwk",
+            "support": {
+                "source": "https://github.com/esterm/mpwarfwk/tree/devel",
+                "issues": "https://github.com/esterm/mpwarfwk/issues"
+            },
+            "time": "2015-03-15 20:04:11"
+        },
+        {
+            "name": "smarty/smarty",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/smarty-php/smarty.git",
+                "reference": "7b7118eea9f84118e75837528f17b49ba06c6f39"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/7b7118eea9f84118e75837528f17b49ba06c6f39",
+                "reference": "7b7118eea9f84118e75837528f17b49ba06c6f39",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.1.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "libs/Smarty.class.php",
+                    "libs/SmartyBC.class.php",
+                    "libs/sysplugins/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Monte Ohrt",
+                    "email": "monte@ohrt.com"
+                },
+                {
+                    "name": "Uwe Tews",
+                    "email": "uwe.tews@googlemail.com"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "rodney.rehm@medialize.de"
+                }
+            ],
+            "description": "Smarty - the compiling PHP template engine",
+            "homepage": "http://www.smarty.net",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2015-03-15 01:01:07"
+        },
+        {
+            "name": "twig/twig",
+            "version": "v1.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twigphp/Twig.git",
+                "reference": "87766410ddc0eb396d3c0e138ca99e4b29e0583e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/87766410ddc0eb396d3c0e138ca99e4b29e0583e",
+                "reference": "87766410ddc0eb396d3c0e138ca99e4b29e0583e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.4"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Twig_": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                },
+                {
+                    "name": "Armin Ronacher",
+                    "email": "armin.ronacher@active-4.com"
+                }
+            ],
+            "description": "Twig, the flexible, fast, and secure template language for PHP",
+            "homepage": "http://twig.sensiolabs.org",
+            "keywords": [
+                "templating"
+            ],
+            "time": "2012-05-08 07:03:46"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "esterm/mpwarfwk": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.3.2"
+    },
+    "platform-dev": []
+}

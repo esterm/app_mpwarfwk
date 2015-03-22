@@ -1,0 +1,60 @@
+{
+    "/": {
+        "path": "Controller\\Home\\Home",
+        "method": "mainAction"
+      
+    },
+
+    "/home": {
+        "path": "Controller\\Home\\Home",
+        "method": "mainAction"
+    },
+
+
+    "/home/main": {
+        "path": "Controller\\Home\\Home",
+        "method": "mainAction"
+    },
+
+    "/home/secondary": {
+        "path": "Controller\\Home\\Home",
+        "method": "secondaryAction"
+    },
+
+    "/home/another": {
+        "path": "Controller\\Home\\Home",
+        "method": "anotherAction"
+    },
+
+    
+     "/hellotwig/main": {
+        "path": "Controller\\HelloTwig\\HelloTwig",
+        "method": "mainAction"
+    },
+
+     "/hellotwig/json": {
+        "path": "Controller\\HelloTwig\\HelloTwig",
+        "method": "jsonAction"
+    },
+
+      "/hellosmarty/main": {
+        "path": "Controller\\HelloSmarty\\HelloSmarty",
+        "method": "mainAction"
+    },
+
+     "/registeruser/main": {
+        "path": "Controller\\RegisterUser\\RegisterUser",
+        "method": "mainAction"
+    },
+
+     "/loginuser/main": {
+        "path": "Controller\\LoginUser\\LoginUser",
+        "method": "mainAction"
+    },
+
+    "/logoutuser/main": {
+        "path": "Controller\\LogoutUser\\LogoutUser",
+        "method": "mainAction"
+    }
+
+}
