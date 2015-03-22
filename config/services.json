@@ -21,13 +21,13 @@
 
     "twigtemplate": {
         "class": "Mpwarfwk\\Component\\Templating\\TwigTemplate",
-        "arguments":  [""]
+        "arguments":  ["Mpwarfwk\\Component\\Templating\\TwigRenderClass"]
       
     },
 
     "smartytemplate": {
         "class": "Mpwarfwk\\Component\\Templating\\SmartyTemplate",
-        "arguments":  [""]
+        "arguments":  ["\\Smarty"]
       
     }
 
