@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/esterm/mpwarfwk.git",
-                "reference": "ed628768f5cfb956eae9dc4cd9ba576072d58757"
+                "reference": "a8eb95450b8036779e7c866303eece1f735277f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/esterm/mpwarfwk/zipball/ed628768f5cfb956eae9dc4cd9ba576072d58757",
-                "reference": "ed628768f5cfb956eae9dc4cd9ba576072d58757",
+                "url": "https://api.github.com/repos/esterm/mpwarfwk/zipball/a8eb95450b8036779e7c866303eece1f735277f7",
+                "reference": "a8eb95450b8036779e7c866303eece1f735277f7",
                 "shasum": ""
             },
             "require": {
@@ -40,7 +40,7 @@
                 "source": "https://github.com/esterm/mpwarfwk/tree/devel",
                 "issues": "https://github.com/esterm/mpwarfwk/issues"
             },
-            "time": "2015-03-15 20:04:11"
+            "time": "2015-03-22 00:08:30"
         },
         {
             "name": "smarty/smarty",
@@ -48,12 +48,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "7b7118eea9f84118e75837528f17b49ba06c6f39"
+                "reference": "2a005ac6d6064a76129e411bd9ade0274a481513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/7b7118eea9f84118e75837528f17b49ba06c6f39",
-                "reference": "7b7118eea9f84118e75837528f17b49ba06c6f39",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/2a005ac6d6064a76129e411bd9ade0274a481513",
+                "reference": "2a005ac6d6064a76129e411bd9ade0274a481513",
                 "shasum": ""
             },
             "require": {
@@ -95,7 +95,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2015-03-15 01:01:07"
+            "time": "2015-03-20 17:25:59"
         },
         {
             "name": "twig/twig",
